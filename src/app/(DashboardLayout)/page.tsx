@@ -18,11 +18,11 @@ const Dashboard = () => {
       <>
         <Grid container>
           <Grid item xs={12} lg={12}>
-            {isFileUploaded ? (
+            {/* {isFileUploaded ? ( */}
               <DeviceOverview />
-            ) : (
+            {/* ) : (
               <FileUpload onUploadSuccess={handleUploadSuccess} />
-            )}
+            )} */}
           </Grid>
         </Grid>
       </>
